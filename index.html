@@ -1,37 +1,29 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>아이폰 잠금화면</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>잠금화면</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="lock-screen">
-        <!-- 잠금화면 배경 -->
-        <div id="background"></div>
-        
-        <!-- 날짜와 시간 -->
-        <div id="time-date">
-            <p id="time">11:00</p>
-            <p id="date">2023년 6월 7일</p>
-        </div>
-
-        <!-- 음악 위젯 -->
-        <div id="music-widget">
-            <img src="album_cover.jpg" alt="Album Cover" id="album-cover">
-            <p id="song-name">장범준 - 흔들리는 꽃들 속에서 네 샴푸향이 느껴진 거야</p>
-            <div id="controls">
-                <button id="play-btn">▶</button>
-            </div>
-        </div>
+  <div id="lock-screen">
+    <div id="background"></div>
+    <div id="time-date">
+      <p id="time">11:00</p>
+      <p id="date">2023년 6월 7일</p>
     </div>
-
-    <!-- 슬라이드 버튼 -->
+    <div id="music-widget">
+      <img src="album_cover.jpg" alt="앨범 커버" id="album-cover">
+      <p id="song-name">장범준 - 흔들리는 꽃들 속에서 네 샴푸향이 느껴진 거야</p>
+      <div id="controls">
+        <button id="play-btn">▶</button>
+      </div>
+    </div>
     <div id="slide-button" onclick="openMessage()">
-        <p>슬라이드해서 잠금 해제</p>
+      <p>슬라이드해서 잠금 해제</p>
     </div>
-
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
