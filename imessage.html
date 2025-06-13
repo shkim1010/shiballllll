@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMessage</title>
+    <link rel="stylesheet" href="imessage.css">
+</head>
+<body>
+    <div id="imessage-screen">
+        <!-- 상단바 -->
+        <div id="top-bar">
+            <span id="time">10:00</span>
+            <span id="date">6월 10일 월요일</span>
+            <span id="wifi">📶</span>
+            <span id="battery">🔋 100%</span>
+        </div>
+
+        <!-- 메시지 대화 내용 -->
+        <div id="messages">
+            <div class="message sent">
+                <span class="sender">나</span>
+                <p>안녕!</p>
+            </div>
+            <div class="message received">
+                <span class="sender">코드긱스</span>
+                <p>안녕하세요! 어떻게 도와드릴까요?</p>
+            </div>
+        </div>
+
+        <!-- 메시지 입력 창 -->
+        <div id="input-area">
+            <input type="text" placeholder="메시지를 입력하세요...">
+            <button>전송</button>
+        </div>
+    </div>
+</body>
+</html>
