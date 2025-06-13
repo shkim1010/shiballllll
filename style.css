@@ -1,91 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body, html {
-    height: 100%;
-    font-family: 'Apple SD Gothic Neo', sans-serif;
+  height: 100%;
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+  overflow: hidden;
 }
 
 #lock-screen {
-    position: relative;
-    height: 100vh;
-    background-color: #000;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 #background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('background_image.jpg');
-    background-size: cover;
-    background-position: center;
-    filter: blur(5px);
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
 }
 
 #time-date p {
-    font-size: 50px;
-    margin: 5px 0;
+  font-size: 50px;
+  margin: 5px 0;
 }
 
 #music-widget {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 #album-cover {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #song-name {
-    font-size: 18px;
-    margin-top: 10px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 #controls {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #controls button {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: none;
-    background-color: #fff;
-    color: #000;
-    cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
 }
 
 #slide-button {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #000;
-    font-size: 18px;
-    border-radius: 25px;
-    cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 25px;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 #slide-button:hover {
-    background-color: #ccc;
+  background-color: #ccc;
 }
